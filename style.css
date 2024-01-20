@@ -9,6 +9,8 @@
   max-width: 1280px; /*this size is for extra large screen device*/
   background: #ffffe9;
   margin: 0 auto;
+  border: 2px solid #f3f25b;
+
 }
 
 /* navbar section start here */
@@ -39,6 +41,7 @@ nav ul li:nth-child(2) {
 /* main section start here */
 main {
   width: 100%;
+  margin-bottom: 2rem;
 }
 /* about us section start here */
 .about-section {
@@ -179,31 +182,84 @@ main {
   text-transform: capitalize;
 }
 
-.customer-section .cards-area{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    gap: 1.4rem;
+.customer-section .cards-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 1.4rem;
 }
-.customer-section .cards-area .card{
-    background: #f3f3c5;
-    margin: 0.8rem 0px;
-    padding: 1.8rem;
-    color: #333;
-    font-family: 'Source Serif 4', serif;
+.customer-section .cards-area .card {
+  background: #fafadf;
+  margin: 0.8rem 0px;
+  padding: 1.8rem;
+  color: #333;
+  font-family: "Source Serif 4", serif;
 }
-.customer-section .cards-area .card h4{
-    
-    margin: 6px 0px 12px 0px;
-    font-weight: bold;
-    
-
+.customer-section .cards-area .card h4 {
+  margin: 6px 0px 12px 0px;
+  font-weight: bold;
 }
-.customer-section .cards-area .card p{
-    font-size: 16px;
-    text-align: center;
+.customer-section .cards-area .card p {
+  font-size: 16px;
+  text-align: center;
 }
 
 /* customer section end here */
+
+/* work section start here */
+.work-section {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 3rem 6.4rem;
+  padding-bottom: 8rem;
+  background: #fafadf;
+}
+.work-section h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Source Serif 4", serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.work-section .first-horizontal-line {
+  width: 26%;
+  margin: 4px auto;
+  border: 1.5px solid #f3f25b;
+}
+.work-section .cards {
+  display: flex;
+  margin: 1.6rem 0px;
+  gap: 2.2rem;
+}
+.work-section .cards .card {
+  text-align: center;
+}
+.work-section .cards .card img {
+  width: 25%;
+  margin: 8px 0px;
+}
+.work-section .cards .card h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Source Serif 4", serif;
+  margin-bottom: 0.4rem;
+}
+.work-section .cards .card p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+/* work section end here */
+.last-horizontal-line{
+    width: 100%;
+    position: relative;
+}
+.last-horizontal-line hr{
+    width: 100%;
+    border: 2px solid #f3f25b;
+    position: absolute;
+    top: -3rem;
+}
 /* main section end here */
