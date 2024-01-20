@@ -68,16 +68,79 @@ main {
   font-size: 22px;
   font-weight: 500;
 }
-.about-section button{
-    padding: 6px 14px;
-    border: none;
-    border-radius: 10px;
-    background: #F3F25B;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 0.4rem;
-
+.about-section button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #f3f25b;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0.4rem;
 }
 /* about us section end here */
+
+/* achieve section start here */
+.achieve-section {
+  width: 80%;
+  margin: 4rem auto;
+}
+.achieve-section .main-heading {
+  text-align: center;
+
+  font-family: "Source Serif Pro";
+  font-size: 2.4rem;
+
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.card-box {
+  width: 100%;
+}
+.card-box .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .content-area {
+  width: 50%;
+}
+.content-area h2 {
+  font-family: "Source Serif 4", serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+.content-area p {
+  color: #848383;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 4px 0px;
+}
+.content-area button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 42px;
+  border-radius: 8px;
+  background: #f3f25b;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  margin: 4px 0px;
+}
+.card .img-area {
+  width: 50%;
+  text-align: right;
+}
+.card .img-area img {
+  width: 80%;
+}
+.middle-card .img-area {
+  text-align: left;
+}
+.middle-card .content-area {
+  text-align: right;
+}
+/* achieve section end here */
 /* main section end here */
