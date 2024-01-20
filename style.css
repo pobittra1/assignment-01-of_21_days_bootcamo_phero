@@ -11,7 +11,6 @@
   background: #ffffe9;
   margin: 0 auto;
   border: 2px solid #f3f25b;
-
 }
 
 /* navbar section start here */
@@ -253,14 +252,102 @@ main {
   font-weight: 500;
 }
 /* work section end here */
-.last-horizontal-line{
-    width: 100%;
-    position: relative;
+.last-horizontal-line {
+  width: 100%;
+  position: relative;
 }
-.last-horizontal-line hr{
-    width: 100%;
-    border: 2px solid #f3f25b;
-    position: absolute;
-    top: -3rem;
+.last-horizontal-line hr {
+  width: 100%;
+  border: 2px solid #f3f25b;
+  position: absolute;
+  top: -3rem;
 }
 /* main section end here */
+
+/* another page design start here */
+.contact-section {
+  width: 100%;
+  height: 80vh;
+  margin: 2rem auto;
+  position: relative;
+}
+.contact-section .main-heading {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  font-family: "Source Serif 4", serif;
+  text-transform: capitalize;
+}
+.contact-section p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+.form-area {
+  width: 60%;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.form-area form {
+  width: 50%;
+  background-color: #201f1f;
+  color: white;
+  padding: 4rem 1.6rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
+.form-area form h1 {
+  font-family: "Source Serif 4", serif;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.form-area form div {
+  display: flex;
+  flex-direction: column;
+}
+.form-area form div label {
+  text-transform: capitalize;
+  color: gray;
+  font-size: 14px;
+  font-family: "Source Serif 4", serif;
+}
+.form-area form div input,
+textarea {
+  background-color: #343333;
+  outline: none;
+  padding: 0.8rem 0px 0.8rem 0.6rem;
+  border: none;
+  margin: 4px 0px;
+  color: gray;
+}
+.form-area form div input::placeholder {
+  text-transform: capitalize;
+}
+.form-area form button{
+    padding: 6px 16px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+    background: #F3F25B;
+    font-family: "Source Serif 4", serif;
+
+
+}
+.map{
+  width: 50%;
+  min-height: 436px;
+  background-image: url(./images/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* another page design end here */
