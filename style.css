@@ -90,10 +90,8 @@ main {
 }
 .achieve-section .main-heading {
   text-align: center;
-
   font-family: "Source Serif Pro";
   font-size: 2.4rem;
-
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 3rem;
@@ -220,8 +218,9 @@ main {
   text-align: center;
   text-transform: capitalize;
   font-family: "Source Serif 4", serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
+  
 }
 .work-section .first-horizontal-line {
   width: 26%;
@@ -242,7 +241,8 @@ main {
 }
 .work-section .cards .card h4 {
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 1.2rem;
+ 
   font-weight: 600;
   font-family: "Source Serif 4", serif;
   margin-bottom: 0.4rem;
@@ -335,7 +335,7 @@ textarea {
   width: 70%;
   padding: 6px 16px;
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
   background: #f3f25b;
   font-family: "Source Serif 4", serif;
