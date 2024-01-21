@@ -43,145 +43,137 @@
   /* achieve section end here */
   /* contact us page section start here */
   .form-area form div input,
-textarea{
-    width: 12rem
-}
-.form-area form .contact-form-btn{
+  textarea {
+    width: 12rem;
+  }
+  .form-area form .contact-form-btn {
     font-size: 0.7rem;
-}
-    /* contact us page section end here */
+  }
+  /* contact us page section end here */
 
-    /* work section start here */
-.work-section{
+  /* work section start here */
+  .work-section {
     padding: 3rem 4rem;
-   
-}
-.work-section h2{
+  }
+  .work-section h2 {
     font-size: 2rem;
-}
-.work-section .cards{
+  }
+  .work-section .cards {
     flex-direction: column;
-
-   
-}
-.work-section .cards .card{
+  }
+  .work-section .cards .card {
     text-align: left;
     margin: 1.6rem 0px;
-}
-.work-section .cards .middle-card{
+  }
+  .work-section .cards .middle-card {
     text-align: right;
+  }
+  /* work section end here */
 }
-/* work section end here */
-
-}
-
-
-
-
-@media only screen and (max-width: 640px){
-/* navbar section start here */
-nav ul li a{
+/* for small device */
+@media only screen and (max-width: 640px) {
+  /* navbar section start here */
+  nav ul li a {
     font-size: 0.9rem;
-}
-/* navbar section end here */
-/* about section start here */
-.about-section{
+  }
+  /* navbar section end here */
+  /* about section start here */
+  .about-section {
     height: 35vh;
- }
- .about-section h1{
+  }
+  .about-section h1 {
     font-size: 2rem;
- }
- .about-section p{
+  }
+  .about-section p {
     font-size: 0.8rem;
- }
- .about-section button{
+  }
+  .about-section button {
     font-size: 12px;
- }
-/* about section end here */
+  }
+  /* about section end here */
 
-/* achieve section start here */
-.achieve-section .main-heading{
+  /* achieve section start here */
+  .achieve-section .main-heading {
     text-align: left;
     font-size: 2rem;
-}
-.card-box .card{
+  }
+  .card-box .card {
     flex-direction: column;
     align-items: start;
     gap: 2rem;
     border-bottom: 2px solid gray;
     margin: 2rem 0px;
-}
-.card .content-area{
+  }
+  .card .content-area {
     width: 100%;
-}
-.card .img-area{
+  }
+  .card .img-area {
     width: 100%;
-}
-.card .img-area img{
+  }
+  .card .img-area img {
     width: 90%;
-}
-.middle-card .content-area{
-   margin-bottom: 2rem;
-}
-/* achieve section end here */
+  }
+  .middle-card .content-area {
+    margin-bottom: 2rem;
+  }
+  /* achieve section end here */
 
-/* customer section start here */
-.customer-section .upper-area h1{
+  /* customer section start here */
+  .customer-section .upper-area h1 {
     font-size: 1.2rem;
-}
-.customer-section .icons .left-icon , .customer-section .icons .right-icon{
+  }
+  .customer-section .icons .left-icon,
+  .customer-section .icons .right-icon {
     padding: 3px 9px;
-}
-.customer-section .cards-area{
+  }
+  .customer-section .cards-area {
     flex-direction: column;
-}
-/* customer section end here */
-/* work section start here */
-.work-section{
+  }
+  /* customer section end here */
+  /* work section start here */
+  .work-section {
     padding: 3rem 2rem;
-}
-.work-section h2{
+  }
+  .work-section h2 {
     font-size: 1.2rem;
-}
-.work-section .cards{
+  }
+  .work-section .cards {
     flex-direction: column;
-   
-}
-/* work section end here */
+  }
+  /* work section end here */
 
-/* contact section start here */
-.contact-section{
+  /* contact section start here */
+  .contact-section {
     margin: 1rem auto;
-}
-.contact-section .main-heading{
+  }
+  .contact-section .main-heading {
     font-size: 2rem;
-
-}
-.contact-section p{
+  }
+  .contact-section p {
     font-size: 16px;
-   
-}
-.form-area{
+  }
+  .form-area {
     flex-direction: column;
     width: 90%;
-    
-}
-.form-area form{
-   padding: 3rem 1.2rem;
-   border-bottom-left-radius: 0px;
-   border-top-right-radius: 6px;
-}
-.form-area form div input,
-textarea{
+  }
+  .form-area form {
+    padding: 3rem 1.2rem;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+  }
+  .form-area form div input,
+  textarea {
     width: 100%;
-}
-.form-area .map img{
+  }
+  .form-area .map img {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 6px;
     margin-bottom: 2rem;
-}
-.form-area form .contact-form-btn{
+  }
+  .form-area form .contact-form-btn {
     font-size: 1.2rem;
+  }
+  /* contact section end here */
 }
-/* contact section end here */
-}
+
+/* responsive end here */
