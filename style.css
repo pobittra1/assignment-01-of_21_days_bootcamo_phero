@@ -286,29 +286,27 @@ main {
 
 .form-area {
   width: 60%;
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 70%;
+  margin: 2rem auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  
 }
 .form-area form {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 2rem;
   background-color: #201f1f;
-  color: white;
-  padding: 4rem 1.6rem;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
 }
 .form-area form h1 {
   font-family: "Source Serif 4", serif;
-  font-size: 28px;
+  font-size: 1.6rem;
   text-transform: capitalize;
   font-weight: 400;
+  color: white;
 }
 .form-area form div {
   display: flex;
@@ -322,6 +320,7 @@ main {
 }
 .form-area form div input,
 textarea {
+  width: 18rem;
   background-color: #343333;
   outline: none;
   padding: 0.8rem 0px 0.8rem 0.6rem;
@@ -332,22 +331,26 @@ textarea {
 .form-area form div input::placeholder {
   text-transform: capitalize;
 }
-.form-area form button{
-    padding: 6px 16px;
-    margin-top: 8px;
-    font-size: 20px;
-    border: none;
-    background: #F3F25B;
-    font-family: "Source Serif 4", serif;
-
-
+.form-area form .contact-form-btn {
+  width: 70%;
+  padding: 6px 16px;
+  margin-top: 8px;
+  font-size: 16px;
+  border: none;
+  background: #f3f25b;
+  font-family: "Source Serif 4", serif;
 }
-.map{
-  width: 50%;
-  min-height: 436px;
+
+.form-area .map {
+  width: 100%;
+  height: 100%;
+}
+.form-area .map img {
+  width: 100%;
+  height: 100%;
   background-image: url(./images/map.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 /* another page design end here */
